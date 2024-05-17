@@ -1,0 +1,82 @@
+body {
+    background: #ee3b2e;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+    background: #2b2a2ac5;
+    color: #ee3b2e;
+    display: flex;
+    justify-content: center;
+}
+
+header h1 {
+    font-size: 70px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+
+.desc {
+    background: #aa0d02;
+}
+
+.desc h2 {
+    border: 1px black dashed;
+    display: flex;
+    justify-content: center;
+    padding: 20px 10px;
+    margin: 20px 330px;
+}
+
+.img {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    margin: auto 50px;
+}
+
+.message {
+    font-size: 50px;
+    text-align: center;
+    background: #e22020;
+}
+
+.dude {
+    text-align: center;
+}
+
+footer {
+    background: #1b0000;
+    font-size: 30px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 100px;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 600px) and (min-width: 360px) {
+    header h1 {
+        font-size: 30px;
+    }
+
+    .desc h2 {
+        margin: 10px;
+    }
+
+    .img {
+        display: inline;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1080px) {
+    header h1 {
+        font-size: 70px;
+    }
+
+    .desc h2 {
+        margin: 10px 400px;
+    }
+}
